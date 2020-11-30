@@ -60,6 +60,17 @@ snippets_begin+=(  gst     "git stash <C0>"                               )
 snippets_begin+=(  gsp     "git stash pop <C0>"                           )
 snippets_begin+=(  gig     "vim .gitignore <C0>"                          )
 
+# docker
+snippets_begin+=(  d       "docker <C0>"                                  )
+snippets_begin+=(  dr      "docker run -d -v ${DOCKER_SHARE_DIR}:/tmp/share -v $HOME/.ssh:/root/.ssh --hostname=<C0> --name <CS> -it <CS>")
+snippets_begin+=(  de      "docker exec -it <C0> tmux -2 <CS>"            )
+snippets_begin+=(  db      "docker build -t <C0>:latest . <CS>"           )
+snippets_begin+=(  di      "docker images <C0>"                           )
+snippets_begin+=(  dp      "docker ps <C0>"                               )
+snippets_begin+=(  dpa     "docker ps -a <C0>"                            )
+snippets_begin+=(  ds      "docker stop <C0>"                             )
+snippets_begin+=(  dd      "docker rm <C0>"                               )
+
 # build
 snippets_begin+=(  gcc     "gcc --std=c99 -Wall <C0>"                     )
 snippets_begin+=(  mc      "make clean <C0>"                              )
