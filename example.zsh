@@ -59,6 +59,7 @@ snippets_begin+=(  gsh     "git show <C0>"                                )
 snippets_begin+=(  gst     "git stash <C0>"                               )
 snippets_begin+=(  gsp     "git stash pop <C0>"                           )
 snippets_begin+=(  gig     "vim .gitignore <C0>"                          )
+snippets_begin+=(  grb     "git rebase -i HEAD\\~9"                       )
 
 # docker
 snippets_begin+=(  d       "docker <C0>"                                  )
